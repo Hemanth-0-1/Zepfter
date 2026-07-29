@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zepfter | Pharma IT Solutions & Business Transformation</title>
+    <meta name="description"
+        content="Zepfter delivers cutting-edge pharmaceutical IT solutions — LIMS, SAP ATTP, Data Analytics, CSV, SCM, RPA and AI — empowering life sciences companies worldwide." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo" aria-label="Zepfter home">
+                <img src="assets/logo.png" alt="Zepfter logo" class="logo-img" />
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li class="dropdown">
+                    <a href="services.html" class="nav-link">Services <i class="ri-arrow-down-s-line"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="services.html#lims"><i class="ri-flask-line"></i> LIMS & Master Data</a>
+                        <a href="services.html#sap"><i class="ri-scan-line"></i> SAP ATTP</a>
+                        <a href="services.html#analytics"><i class="ri-bar-chart-line"></i> Data Analytics</a>
+                        <a href="services.html#csv"><i class="ri-shield-check-line"></i> Computer System Validation</a>
+                        <a href="services.html#scm"><i class="ri-truck-line"></i> Supply Chain (SCM)</a>
+                        <a href="services.html#rpa"><i class="ri-robot-line"></i> RPA</a>
+                        <a href="services.html#ai"><i class="ri-brain-line"></i> Artificial Intelligence</a>
+                        <a href="services.html#cloud"><i class="ri-cloud-line"></i> Cloud Solutions</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="industries.html" class="nav-link">Industries <i class="ri-arrow-down-s-line"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="industries.html#pharma"><i class="ri-capsule-line"></i> Pharma</a>
+                        <a href="industries.html#biotech"><i class="ri-test-tube-line"></i> Biotechnology</a>
+                        <a href="industries.html#agri"><i class="ri-plant-line"></i> Agriculture</a>
+                        <a href="industries.html#consumer"><i class="ri-shopping-bag-line"></i> Consumer Products</a>
+                    </div>
+                </li>
+                <li><a href="products.html" class="nav-link">Products</a></li>
+                <li><a href="clients.html" class="nav-link">Clients</a></li>
+                <li><a href="insights.html" class="nav-link">Insights</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <a href="contact.html" class="btn-nav-cta">Get Started</a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-overlay"></div>
+        <canvas id="particleCanvas"></canvas>
+        <div class="hero-content" data-aos="fade-up">
+            <div class="hero-badge"><i class="ri-pulse-line"></i> Life Sciences Technology Partner</div>
+            <h1 class="hero-title">Transforming <span class="gradient-text">Pharma</span><br />with Intelligent
+                Technology</h1>
+            <p class="hero-subtitle">Zepfter delivers end-to-end pharmaceutical IT solutions — from LIMS and SAP to
+                AI-powered automation — helping life sciences companies achieve compliance, efficiency, and innovation
+                at scale.</p>
+            <div class="hero-cta-group">
+                <a href="services.html" class="btn-primary">Explore Solutions <i class="ri-arrow-right-line"></i></a>
+                <a href="contact.html" class="btn-ghost">Talk to an Expert <i class="ri-phone-line"></i></a>
+            </div>
+            <div class="hero-trust">
+                <span><i class="ri-verified-badge-line"></i> FDA Compliant</span>
+                <span><i class="ri-shield-check-line"></i> GxP Validated</span>
+                <span><i class="ri-global-line"></i> Global Delivery</span>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-line"></div><span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats-bar" id="stats">
+        <div class="stats-container">
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="0">
+                <i class="ri-box-3-line stat-icon"></i>
+                <div class="stat-number" data-target="25" data-suffix="+">0</div>
+                <div class="stat-label">Products</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                <i class="ri-building-2-line stat-icon"></i>
+                <div class="stat-number" data-target="80" data-suffix="+">0</div>
+                <div class="stat-label">Customers</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                <i class="ri-stack-line stat-icon"></i>
+                <div class="stat-number" data-target="350" data-suffix="+">0</div>
+                <div class="stat-label">Implementations</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="ri-group-line stat-icon"></i>
+                <div class="stat-number" data-target="600" data-suffix="+">0</div>
+                <div class="stat-label">Professionals</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="400">
+                <i class="ri-global-line stat-icon"></i>
+                <div class="stat-number" data-target="15" data-suffix="+">0</div>
+                <div class="stat-label">Countries</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT PREVIEW -->
+    <section class="home-preview about" id="about-preview">
+        <div class="section-container">
+            <div class="about-grid">
+                <div class="about-image-wrapper" data-aos="fade-right">
+                    <img src="assets/about-img.png" alt="Zepfter team" class="about-img" />
+                    <div class="about-badge-float">
+                        <i class="ri-award-line"></i>
+                        <div>
+                            <div class="float-num">12+</div>
+                            <div class="float-label">Years of Excellence</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content" data-aos="fade-left">
+                    <div class="section-tag">Who We Are</div>
+                    <h2 class="section-title">Your Trusted Pharma IT <span class="gradient-text">Transformation
+                            Partner</span></h2>
+                    <p class="about-desc">Zepfter is a specialized pharmaceutical IT consulting and solutions company.
+                        We combine deep domain expertise in life sciences with cutting-edge technology to deliver
+                        measurable business outcomes.</p>
+                    <p class="about-desc">From regulatory compliance and supply chain serialization to AI-powered
+                        quality management, Zepfter's solutions are built for the real challenges of pharmaceutical
+                        operations.</p>
+                    <div class="about-pillars">
+                        <div class="pillar"><i class="ri-focus-3-line"></i>
+                            <div>
+                                <h4>Domain Expertise</h4>
+                                <p>Deep pharma knowledge embedded in every solution</p>
+                            </div>
+                        </div>
+                        <div class="pillar"><i class="ri-shield-star-line"></i>
+                            <div>
+                                <h4>Compliance First</h4>
+                                <p>FDA, EMA, GxP, and 21 CFR Part 11 validated</p>
+                            </div>
+                        </div>
+                        <div class="pillar"><i class="ri-rocket-2-line"></i>
+                            <div>
+                                <h4>Rapid Delivery</h4>
+                                <p>On-time, on-budget delivery every time</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="about.html" class="btn-primary">Learn More About Us <i class="ri-arrow-right-line"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES PREVIEW -->
+    <section class="home-services-preview" style="padding: var(--section-py) 24px; background: var(--dark-navy);">
+        <div class="section-container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-tag">Our Capabilities</div>
+                <h2 class="section-title">End-to-End <span class="gradient-text">Pharma IT Solutions</span></h2>
+                <p class="section-subtitle">Comprehensive technology services tailored exclusively for the life sciences
+                    industry</p>
+            </div>
+            <div class="services-preview-grid" data-aos="fade-up">
+                <a href="services.html#lims" class="svc-preview-card">
+                    <i class="ri-flask-line"></i>
+                    <h4>LIMS & Master Data</h4>
+                    <p>End-to-end lab data management with full compliance traceability.</p>
+                </a>
+                <a href="services.html#sap" class="svc-preview-card">
+                    <i class="ri-scan-line"></i>
+                    <h4>SAP ATTP</h4>
+                    <p>Global serialization & track-trace for DSCSA and EU FMD.</p>
+                </a>
+                <a href="services.html#analytics" class="svc-preview-card">
+                    <i class="ri-bar-chart-line"></i>
+                    <h4>Data Analytics</h4>
+                    <p>Real-time dashboards and predictive models for pharma intelligence.</p>
+                </a>
+                <a href="services.html#csv" class="svc-preview-card">
+                    <i class="ri-shield-check-line"></i>
+                    <h4>CSV</h4>
+                    <p>Risk-based validation across the full system lifecycle (GAMP 5).</p>
+                </a>
+                <a href="services.html#scm" class="svc-preview-card">
+                    <i class="ri-truck-line"></i>
+                    <h4>Supply Chain (SCM)</h4>
+                    <p>End-to-end supply chain visibility and inventory optimization.</p>
+                </a>
+                <a href="services.html#rpa" class="svc-preview-card">
+                    <i class="ri-robot-line"></i>
+                    <h4>RPA</h4>
+                    <p>Automate repetitive pharma processes with measurable ROI in 90 days.</p>
+                </a>
+                <a href="services.html#ai" class="svc-preview-card">
+                    <i class="ri-brain-line"></i>
+                    <h4>Artificial Intelligence</h4>
+                    <p>Gen AI, predictive quality, and computer vision for life sciences.</p>
+                </a>
+                <a href="services.html#cloud" class="svc-preview-card">
+                    <i class="ri-cloud-line"></i>
+                    <h4>Cloud Solutions</h4>
+                    <p>GxP-validated cloud on AWS, Azure & SAP BTP.</p>
+                </a>
+            </div>
+            <div style="text-align:center; margin-top:40px;" data-aos="fade-up">
+                <a href="services.html" class="btn-primary">View All Services <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- INDUSTRIES PREVIEW -->
+    <section style="padding: var(--section-py) 24px; background: var(--dark-base);">
+        <div class="section-container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-tag">Market Verticals</div>
+                <h2 class="section-title">Industries We <span class="gradient-text">Serve</span></h2>
+            </div>
+            <div class="industries-grid">
+                <div class="industry-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="industry-icon"><i class="ri-capsule-line"></i></div>
+                    <h3>Pharmaceuticals</h3>
+                    <p>API & finished dose manufacturing, serialization, compliance systems.</p>
+                    <a href="industries.html#pharma" class="industry-link">Learn More <i
+                            class="ri-arrow-right-line"></i></a>
+                </div>
+                <div class="industry-card featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="industry-badge">Primary Focus</div>
+                    <div class="industry-icon"><i class="ri-test-tube-line"></i></div>
+                    <h3>Biotechnology</h3>
+                    <p>Biologics manufacturing, clinical data management, ELN & research informatics.</p>
+                    <a href="industries.html#biotech" class="industry-link">Learn More <i
+                            class="ri-arrow-right-line"></i></a>
+                </div>
+                <div class="industry-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="industry-icon"><i class="ri-plant-line"></i></div>
+                    <h3>Agriculture</h3>
+                    <p>Crop protection serialization, field data analytics, and regulatory compliance.</p>
+                    <a href="industries.html#agri" class="industry-link">Learn More <i
+                            class="ri-arrow-right-line"></i></a>
+                </div>
+                <div class="industry-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="industry-icon"><i class="ri-shopping-bag-3-line"></i></div>
+                    <h3>Consumer Products</h3>
+                    <p>PLM, supply chain visibility, and quality systems for FMCG companies.</p>
+                    <a href="industries.html#consumer" class="industry-link">Learn More <i
+                            class="ri-arrow-right-line"></i></a>
+                </div>
+            </div>
+            <div style="text-align:center; margin-top:40px;" data-aos="fade-up">
+                <a href="industries.html" class="btn-primary">Explore All Industries <i
+                        class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS PREVIEW -->
+    <section style="padding: var(--section-py) 24px; background: var(--dark-navy);">
+        <div class="section-container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-tag">Our Product Suite</div>
+                <h2 class="section-title">Purpose-Built <span class="gradient-text">Pharma Products</span></h2>
+            </div>
+            <div class="products-grid">
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="0">
+                    <div class="product-icon-wrap" style="--icon-color:#2563EB"><i class="ri-scan-2-line"></i></div>
+                    <h3>Pro<span>CDS</span> Hub</h3>
+                    <p>Centralized Chromatography Data System for compliant analytical data management.</p>
+                    <div class="product-tags"><span>Analytics</span><span>Compliance</span></div>
+                </div>
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="60">
+                    <div class="product-icon-wrap" style="--icon-color:#0EA5E9"><i class="ri-file-text-line"></i></div>
+                    <h3>Pro<span>DRE</span></h3>
+                    <p>Automated Data Review Engine that intelligently flags analytical anomalies.</p>
+                    <div class="product-tags"><span>AI</span><span>Quality</span></div>
+                </div>
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="120">
+                    <div class="product-icon-wrap" style="--icon-color:#7C3AED"><i class="ri-map-pin-line"></i></div>
+                    <h3>Pro<span>Track R</span></h3>
+                    <p>End-to-end product serialization & track-trace for global compliance.</p>
+                    <div class="product-tags"><span>Serialization</span><span>DSCSA</span></div>
+                </div>
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="180">
+                    <div class="product-icon-wrap" style="--icon-color:#059669"><i class="ri-dashboard-3-line"></i>
+                    </div>
+                    <h3>Pro<span>QMSuite</span></h3>
+                    <p>Integrated QMS covering change control, deviations, CAPAs, and audits.</p>
+                    <div class="product-tags"><span>QMS</span><span>CAPA</span></div>
+                </div>
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="240">
+                    <div class="product-icon-wrap" style="--icon-color:#D97706"><i class="ri-file-list-3-line"></i>
+                    </div>
+                    <h3>Pro<span>ExtractEase</span></h3>
+                    <p>Intelligent data extraction for seamless legacy system modernization.</p>
+                    <div class="product-tags"><span>Data</span><span>Migration</span></div>
+                </div>
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="product-icon-wrap" style="--icon-color:#DC2626"><i class="ri-scales-3-line"></i></div>
+                    <h3>Pro<span>Scale</span></h3>
+                    <p>Weighing and dispensing automation integrated with SAP and MES.</p>
+                    <div class="product-tags"><span>Manufacturing</span><span>Automation</span></div>
+                </div>
+            </div>
+            <div style="text-align:center; margin-top:40px;" data-aos="fade-up">
+                <a href="products.html" class="btn-primary">View All Products <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIAL PREVIEW -->
+    <section style="padding: var(--section-py) 24px; background:var(--dark-base);">
+        <div class="section-container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-tag">Client Success Stories</div>
+                <h2 class="section-title">Trusted by <span class="gradient-text">Industry Leaders</span></h2>
+            </div>
+            <div class="testimonials-carousel" data-aos="fade-up">
+                <div class="carousel-track" id="carouselTrack">
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="quote-icon"><i class="ri-double-quotes-l"></i></div>
+                            <p class="testimonial-text">Zepfter has exceeded our expectations. Their team demonstrated
+                                exceptional expertise and professionalism from initial consultation through
+                                implementation. We look forward to a long-lasting partnership.</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">MG</div>
+                                <div>
+                                    <div class="author-name">Mangesh Gupte</div>
+                                    <div class="author-title">Sr. GM Projects, USV Pvt Ltd</div>
+                                </div>
+                                <div class="testimonial-stars"><i class="ri-star-fill"></i><i
+                                        class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                                        class="ri-star-fill"></i><i class="ri-star-fill"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="quote-icon"><i class="ri-double-quotes-l"></i></div>
+                            <p class="testimonial-text">When management decided to implement WMS across 3 vaccine plants
+                                in 3 months, Zepfter delivered on time and within budget. The auditors appreciated the
+                                system and documentation thoroughly.</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">KH</div>
+                                <div>
+                                    <div class="author-name">Kishore</div>
+                                    <div class="author-title">Head QC, Neuland Laboratories</div>
+                                </div>
+                                <div class="testimonial-stars"><i class="ri-star-fill"></i><i
+                                        class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                                        class="ri-star-fill"></i><i class="ri-star-fill"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn" id="carouselPrev"><i class="ri-arrow-left-line"></i></button>
+                    <div class="carousel-dots" id="carouselDots"></div>
+                    <button class="carousel-btn" id="carouselNext"><i class="ri-arrow-right-line"></i></button>
+                </div>
+            </div>
+            <div style="text-align:center;margin-top:40px;" data-aos="fade-up">
+                <a href="clients.html" class="btn-primary">See All Client Stories <i
+                        class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- INSIGHTS PREVIEW -->
+    <section style="padding:var(--section-py) 24px; background:var(--dark-navy);">
+        <div class="section-container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-tag">Knowledge Hub</div>
+                <h2 class="section-title">Latest <span class="gradient-text">Insights & Trends</span></h2>
+            </div>
+            <div class="insights-grid" data-aos="fade-up">
+                <div class="insight-card featured-insight">
+                    <div class="insight-category">AI & Analytics</div>
+                    <h3>How Generative AI is Transforming Pharmaceutical Quality Management</h3>
+                    <p>Explore how pharma companies are using Gen AI to automate batch record reviews and reduce CAPA
+                        cycle times by up to 50%.</p>
+                    <div class="insight-meta"><span><i class="ri-calendar-line"></i> April 2026</span><span><i
+                                class="ri-time-line"></i> 8 min read</span></div>
+                    <a href="insights.html" class="insight-link">Read Article <i class="ri-arrow-right-line"></i></a>
+                </div>
+                <div class="insights-side">
+                    <div class="insight-card small">
+                        <div class="insight-category">Serialization</div>
+                        <h3>DSCSA 2026: What Pharma Companies Need to Know</h3>
+                        <div class="insight-meta"><span><i class="ri-calendar-line"></i> March 2026</span><span><i
+                                    class="ri-time-line"></i> 5 min read</span></div>
+                        <a href="insights.html" class="insight-link">Read <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="insight-card small">
+                        <div class="insight-category">Cloud</div>
+                        <h3>GxP-Validated Cloud: A Practical Guide for Life Sciences IT</h3>
+                        <div class="insight-meta"><span><i class="ri-calendar-line"></i> Feb 2026</span><span><i
+                                    class="ri-time-line"></i> 6 min read</span></div>
+                        <a href="insights.html" class="insight-link">Read <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="insight-card small">
+                        <div class="insight-category">Supply Chain</div>
+                        <h3>Building Resilient Pharma Supply Chains with SAP & IoT</h3>
+                        <div class="insight-meta"><span><i class="ri-calendar-line"></i> Jan 2026</span><span><i
+                                    class="ri-time-line"></i> 7 min read</span></div>
+                        <a href="insights.html" class="insight-link">Read <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align:center;margin-top:40px;" data-aos="fade-up">
+                <a href="insights.html" class="btn-primary">View All Insights <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <section class="cta-banner">
+        <div class="section-container">
+            <div class="cta-inner" data-aos="fade-up">
+                <h2>Ready to Transform Your Pharma IT Landscape?</h2>
+                <p>Join 80+ leading life sciences companies who trust Zepfter for their most critical technology
+                    challenges.</p>
+                <div class="cta-btns">
+                    <a href="contact.html" class="btn-primary">Get a Free Consultation <i
+                            class="ri-arrow-right-line"></i></a>
+                    <a href="services.html" class="btn-ghost">Explore Services <i class="ri-arrow-right-line"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo" aria-label="Zepfter home">
+                        <img src="assets/logo.png" alt="Zepfter logo" class="logo-img footer-logo-img" />
+                    </a>
+                    <p class="footer-tagline">Transforming Pharma with<br />Intelligent Technology</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="ri-twitter-x-fill"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="ri-youtube-fill"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Zepfter</a></li>
+                        <li><a href="clients.html">Our Clients</a></li>
+                        <li><a href="insights.html">Insights</a></li>
+                        <li><a href="contact.html">Careers</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Capabilities</h4>
+                    <ul>
+                        <li><a href="services.html#lims">LIMS & Master Data</a></li>
+                        <li><a href="services.html#sap">SAP ATTP</a></li>
+                        <li><a href="services.html#analytics">Data Analytics</a></li>
+                        <li><a href="services.html#csv">CSV</a></li>
+                        <li><a href="services.html#scm">Supply Chain (SCM)</a></li>
+                        <li><a href="services.html#rpa">RPA & AI</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Industries</h4>
+                    <ul>
+                        <li><a href="industries.html#pharma">Pharmaceuticals</a></li>
+                        <li><a href="industries.html#biotech">Biotechnology</a></li>
+                        <li><a href="industries.html#agri">Agriculture</a></li>
+                        <li><a href="industries.html#consumer">Consumer Products</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="products.html">ProCDS Hub</a></li>
+                        <li><a href="products.html">ProDRE</a></li>
+                        <li><a href="products.html">ProTrack R</a></li>
+                        <li><a href="products.html">ProQMSuite</a></li>
+                        <li><a href="products.html">ProExtractEase</a></li>
+                        <li><a href="products.html">ProScale</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Zepfter Pvt. Ltd. All rights reserved.</p>
+                <div class="footer-legal"><a href="#">Privacy Policy</a><a href="#">Terms of Use</a><a href="#">Cookie
+                        Policy</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="ri-arrow-up-line"></i></button>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-label="Zepfter team placeholder">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F1E35"/>
+      <stop offset="100%" stop-color="#1A2E4A"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" rx="16" fill="url(#card)"/>
+  <rect x="24" y="24" width="552" height="402" rx="12" fill="none" stroke="rgba(37,99,235,0.3)" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="300" y="180" text-anchor="middle" fill="#8FA3BF" font-family="Arial,sans-serif" font-size="22" font-weight="600">ZEPFTER TEAM</text>
+  <text x="300" y="220" text-anchor="middle" fill="#4B6380" font-family="Arial,sans-serif" font-size="14">600+ Pharma IT Professionals</text>
+  <text x="300" y="260" text-anchor="middle" fill="#4B6380" font-family="Arial,sans-serif" font-size="13">Hyderabad HQ | Mumbai | New Jersey | Frankfurt</text>
+  <text x="300" y="300" text-anchor="middle" fill="#2563EB" font-family="Arial,sans-serif" font-size="12">12+ Years | 350+ Implementations | 80+ Clients</text>
+  <circle cx="150" cy="360" r="28" fill="rgba(37,99,235,0.2)"/>
+  <circle cx="230" cy="360" r="28" fill="rgba(14,165,233,0.2)"/>
+  <circle cx="310" cy="360" r="28" fill="rgba(124,58,237,0.2)"/>
+  <circle cx="390" cy="360" r="28" fill="rgba(5,150,105,0.2)"/>
+  <circle cx="470" cy="360" r="28" fill="rgba(217,119,6,0.2)"/>
+</svg>
