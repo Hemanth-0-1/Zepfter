@@ -74,7 +74,7 @@ body.nav-open {
 .section-container {
   max-width: var(--container-max);
   margin: 0 auto;
-  padding: 20px 24px;
+  padding: 10px 14px;
 }
 
 .section-header {
