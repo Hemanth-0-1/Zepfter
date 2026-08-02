@@ -8,10 +8,10 @@
 
 :root {
   /* Colors */
-  --dark-base: #04080F;
-  --dark-navy: #0A1628;
-  --dark-card: #0F1E35;
-  --dark-border: #1A2E4A;
+    --dark-base: #F8FAFF; /*#04080F;*/
+  --dark-navy: #E8EEF8; /*0A1628*/
+  --dark-card: #FFFFFF; /*0F1E35*/
+  --dark-border: #D1D9E6; /*1A2E4A*/
   --blue-primary: #2563EB;
   --blue-hover: #1D4ED8;
   --teal: #0EA5E9;
@@ -20,14 +20,15 @@
   --green: #059669;
   --amber: #D97706;
   --red: #DC2626;
-  --text-primary: #F0F6FF;
-  --text-secondary: #8FA3BF;
-  --text-muted: #4B6380;
+  --text-primary: #102A43; /*F0F6FF*/
+  --text-secondary: #475569;
+  --text-muted: #64748B;
   --gradient-main: linear-gradient(135deg, #2563EB 0%, #0EA5E9 100%);
-  --gradient-hero: linear-gradient(135deg, #0A1628 0%, #0F2040 50%, #0A1628 100%);
-  --shadow-glow: 0 0 40px rgba(37, 99, 235, 0.25);
-  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.4);
+  --gradient-hero: linear-gradient(135deg, rgba(37, 99, 235, 0.12) 0%, rgba(14, 165, 233, 0.06) 100%);
+  --shadow-glow: 0 0 40px rgba(37, 99, 235, 0.12);
+  --shadow-card: 0 4px 24px rgba(15, 23, 42, 0.08);
 
+  
   /* Typography */
   --font-head: 'Space Grotesk', sans-serif;
   --font-body: 'Inter', sans-serif;
@@ -200,9 +201,9 @@ body.nav-open {
   padding: 0;
 }
 .navbar.scrolled {
-  background: rgba(10, 22, 40, 0.92);
+  background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(20px);
-  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 30px rgba(15, 23, 42, 0.08);
   border-bottom: 1px solid var(--dark-border);
 }
 
