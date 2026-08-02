@@ -437,9 +437,9 @@ body.nav-open {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: rgba(14, 165, 233, 0.12);
-  border: 1px solid rgba(14, 165, 233, 0.3);
-  color: var(--teal-light);
+  background: rgba(28, 135, 184, 0.264);
+  border: 1px solid rgba(18, 88, 120, 0.581);
+  /*color: var(--teal-light);*/
   font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.05em;
@@ -1699,7 +1699,7 @@ body.nav-open {
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
     overscroll-behavior: contain;
-    background: rgba(10, 22, 40, 0.98);
+    /*background: rgba(10, 22, 40, 0.98);*/
     backdrop-filter: blur(20px);
     border-bottom: 1px solid var(--dark-border);
     padding: 16px 20px 24px;
@@ -1718,7 +1718,7 @@ body.nav-open {
     visibility: visible;
     transform: none;
     box-shadow: none;
-    background: rgba(255, 255, 255, 0.03);
+    /*background: rgba(206, 43, 43, 0.03);*/
     border-radius: 8px;
     margin-top: 4px;
     max-height: none;
